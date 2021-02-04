@@ -5,15 +5,37 @@
 }
 
 .app__header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
   background-color: white;
   padding: 13px;
   border-bottom: 1px solid lightgray;
   object-fit: contain;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__headerImage{
+  object-fit: contain;
 }
 
 .app__post {
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.app__signup {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.app__signin{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
 }
